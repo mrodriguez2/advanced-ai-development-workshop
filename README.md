@@ -45,8 +45,8 @@ AI Weatherman Chatbot
 ### Step 1: Clone and Navigate to Project
 
 ```bash
-git clone <your-repo-url>
-cd chatbot-workshop
+git clone https://github.com/mrodriguez2/advanced-ai-development-workshop.git
+cd advanced-ai-development-workshop
 ```
 
 ### Step 2: Create Virtual Environment
@@ -95,7 +95,14 @@ pip install -r requirements.txt
 
 ### Step 4: Set Up Environment Variables
 
-Create a `config.env` file in your project root:
+Copy the template file and add your API keys:
+
+```bash
+# Copy the template file
+cp config.env.template config.env
+```
+
+Then edit `config.env` with your actual API keys:
 
 ```env
 # Google AI Studio API Key (free tier available)
