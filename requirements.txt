@@ -1,7 +1,7 @@
 langchain
-langchain_community
-langchain_google_genai
-langchain_core
+langchain-community
+langchain-google-genai
+langchain-core
 langfuse
 streamlit
 requests
